@@ -12,6 +12,7 @@ function yuesefu(m,n) {
         s = (s+m)%i;
         console.log(s);
         z++;
+
     }
     console.log(s);
     console.log('z==='+z);
@@ -27,4 +28,6 @@ function yuesefu2(m,n) {
         return (yuesefu2(m,n-1)+m)%n;
     }
 }
-console.log(yuesefu2(3,41))
+console.log(yuesefu2(3,41));
+
+console.log('test');
